@@ -102,7 +102,7 @@ classifier.fit(X_train, y_train, batch_size = 10, epochs = 100)
 
 这里 batch_size 是你希望同时处理的输入量。epoch 指数据通过神经网络一次的整个周期。它们在 Colaboratory Notebook 中显示如下：
 
-[img](https://image.jiqizhixin.com/uploads/wangeditor/3ccfa35d-df58-4cd1-97bd-9756df94e235/473055.png)
+![img](https://image.jiqizhixin.com/uploads/wangeditor/3ccfa35d-df58-4cd1-97bd-9756df94e235/473055.png)
 
 进行预测，构建混淆矩阵。
 
@@ -125,11 +125,11 @@ cm = confusion_matrix(y_test, y_pred)
 混淆矩阵
 混淆矩阵是模型做出的正确、错误预测的矩阵表征。该矩阵可供个人调查哪些预测和另一种预测混淆。这是一个 2×2 的混淆矩阵。
 
-[img](https://image.jiqizhixin.com/uploads/wangeditor/3ccfa35d-df58-4cd1-97bd-9756df94e235/595146.png)
+![img](https://image.jiqizhixin.com/uploads/wangeditor/3ccfa35d-df58-4cd1-97bd-9756df94e235/595146.png)
 
 
 混淆矩阵如下所示。
 
-[img](https://image.jiqizhixin.com/uploads/wangeditor/3ccfa35d-df58-4cd1-97bd-9756df94e235/687177.png)
+![img](https://image.jiqizhixin.com/uploads/wangeditor/3ccfa35d-df58-4cd1-97bd-9756df94e235/687177.png)
 
 上图表示：70 个真负类、1 个假正类、1 个假负类、42 个真正类。很简单。该平方矩阵的大小随着分类类别的增加而增加。
